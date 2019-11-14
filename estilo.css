@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #fff;
+
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #edf2f4;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	color: #f3f3f3;
+}
+
+a{
+	text-decoration: none;
+	color: #99C791;
+}
+
+header{
+	position: relative;
+	top: 125px;
+	text-align: center;
+	padding: 10px;
+	width: 550px;
+	margin: auto;
+	border-radius: 15px;
+}
+
+
+#busca {
+
+margin:0 auto;
+padding:5px;
+}
+
+#pesquisa{
+	width: 50%;
+	padding: 5px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	border: 2px solid #EEE;
+
+}
+
+#botao{
+	font-size: 20px;
+	border: 0px solid #fff;
+	background: none;
+}
+
+.icon{
+	padding-top: 30px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 85px;
+}
+
+.cor{
+	color: #8844ee;
+}
+
+.autor{
+	color: #99C791;
+	padding: 5px;
+}
+
+.github{
+	height: 120px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.caixa{
+	position: relative;
+	top: 115px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 20px;
+}
+
+
+.item{
+
+	padding: 20px;
+	margin-right: 10px;
+	height: auto;
+	width: 180px;
+	border-radius: 3px;
+}
+
+.item p{
+	margin-top: 10px;
+}
+
+.item h3{
+	color: #2b2d42;
+	font-size: 20px;
+	text-transform: none;
+}
+
+.item p{
+	color: #2b2d42;
+}
+
+#azul:hover{
+	background-color: #01baef;
+}
+
+#azul:hover h3{
+	color: #fbfbff;
+}
+
+#azul:hover p{
+	color: #fbfbff;
+}
+
+
+#verde:hover{
+	background-color: #20bf55;
+}
+
+#verde:hover h3{
+	color: #fbfbff;
+}
+
+#verde:hover p{
+	color: #fbfbff;
+}
+
+#roxo:hover{
+	background-color: #872bce;
+}
+
+#roxo:hover h3{
+	color: #fbfbff ;
+}
+
+#roxo:hover p{
+	color: #fbfbff ;
+}
